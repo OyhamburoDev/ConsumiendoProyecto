@@ -1,5 +1,5 @@
 body {
-  background-image: url(./images/fondoPage.jpg);
+  background-image: url(../images/fondoPage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -265,7 +265,7 @@ body {
   .navbar__mobile {
     width: 22rem;
     min-height: 8rem;
-    background-image: url("./images/fondoNav5.jpg");
+    background-image: url("../images/fondoNav5.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 1rem;
@@ -309,12 +309,10 @@ body {
 .card-padding {
   padding: 0.5rem;
 }
-
 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: rgb(255, 255, 255); /* Si quieres que el texto sea blanco */
 }
