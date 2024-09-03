@@ -1,0 +1,124 @@
+
+  .navbar {
+    background-color: $color-gray-dark !important;
+    z-index: 1050;
+    position: absolute;
+    top: $navbar-height;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid $color-gray-light;
+    padding: $navbar-padding;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler {
+    border-color: $color-white;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-brand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .nav-link {
+    color: $color-white;
+  }
+  
+  .logofoto {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Ajusta el espaciado entre los enlaces */
+  .navbar-collapse {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-toggler:focus + .navbar-collapse {
+    background-color: rgba(128, 128, 128, 0.9);
+  }
+  
+  .navbar-collapse {
+    background-color: $color-black;
+  }
+  
+  
+  /* Nav vista de escritorio */
+  .navDesktop {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    margin-top: 3rem;
+  }
+  
+  .navDesk__item__1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+    width: 100%;
+  }
+  
+  .navDesk__item__2 {
+    width: 114;
+    height: 114;
+  }
+  
+  .navDesk__item__3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+    width: 100%;
+  }
+  
+  .nav-item {
+    list-style-type: none;
+  }
+  
+  .button__nav {
+    display: none;
+  }
+
+  /* Segundo archivo html (menu.hmtl) */
+  .navDos {
+    background-color: $color-black;
+  }
+  
+  .navDos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .navDos a {
+    text-decoration: none;
+    color: $color-white;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  
+  
+  

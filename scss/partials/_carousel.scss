@@ -1,0 +1,59 @@
+.headerClass {
+    position: relative;
+  
+    /* overflow: hidden; */
+    margin-top: auto;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-item2 {
+    filter: brightness(0.6); /* Ajusta el brillo para oscurecer la imagen */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: $carousel-caption-padding;
+    border-radius: 10px;
+    width: $carousel-caption-width;
+    z-index: 10;
+    overflow: visible;
+  }
+  
+  .carousel-caption h5,
+  .carousel-caption h6,
+  .carousel-caption p {
+    line-height: 1.2; /* Ajusta para evitar cortes */
+    padding: 0;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 6rem;
+    font-weight: normal;
+    line-height: 0.8;
+    font-family: "Permanent Marker", cursive;
+  }
+  
+  .carousel-caption p {
+    font-size: 2rem;
+    font-family: "Permanent Marker", cursive;
+  }
+  
+  .carousel-caption h6 {
+    font-size: 6rem;
+    font-weight: normal;
+    line-height: 1;
+    font-family: "Permanent Marker", cursive;
+  }
+
+   /* Estilos segunda foto del carousel */
+   .artistasBurger {
+    filter: brightness(0.6); /* Ajusta el brillo para oscurecer la imagen */
+  }
