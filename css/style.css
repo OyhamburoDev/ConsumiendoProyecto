@@ -1,4 +1,19 @@
-@charset "UTF-8";
+.card-body, .card-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navDesk__item__3, .navDesk__item__1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0;
+  width: 100%;
+}
+
 body {
   background-image: url(../images/fondoPage.jpg);
   background-repeat: no-repeat;
@@ -14,7 +29,6 @@ body .permanent-marker-regular {
 
 .headerClass {
   position: relative;
-  /* overflow: hidden; */
   margin-top: auto;
 }
 
@@ -39,49 +53,29 @@ body .permanent-marker-regular {
   z-index: 10;
   overflow: visible;
 }
-
-.carousel-caption h5,
-.carousel-caption h6,
-.carousel-caption p {
-  line-height: 1.2; /* Ajusta para evitar cortes */
-  padding: 0;
-}
-
 .carousel-caption h5 {
   font-size: 6rem;
+  font-family: "Permanent Marker";
+  font-style: cursive;
   font-weight: normal;
   line-height: 0.8;
-  font-family: "Permanent Marker", cursive;
 }
-
 .carousel-caption p {
   font-size: 2rem;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Permanent Marker";
+  font-style: cursive;
 }
-
 .carousel-caption h6 {
   font-size: 6rem;
+  font-family: "Permanent Marker";
+  font-style: cursive;
   font-weight: normal;
   line-height: 1;
-  font-family: "Permanent Marker", cursive;
 }
 
 /* Estilos segunda foto del carousel */
 .artistasBurger {
   filter: brightness(0.6); /* Ajusta el brillo para oscurecer la imagen */
-}
-
-.navbar {
-  background-color: rgba(0, 0, 0, 0.9) !important;
-  z-index: 1050;
-  position: absolute;
-  top: 5.8rem;
-  left: 0;
-  width: 100%;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 0.5rem 1rem;
-  border: none;
-  box-shadow: none;
 }
 
 .navbar-toggler {
@@ -140,25 +134,9 @@ body .permanent-marker-regular {
   margin-top: 3rem;
 }
 
-.navDesk__item__1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-left: 0;
-  width: 100%;
-}
-
 .navDesk__item__2 {
   width: 114;
   height: 114;
-}
-
-.navDesk__item__3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-left: 0;
-  width: 100%;
 }
 
 .nav-item {
@@ -173,7 +151,6 @@ body .permanent-marker-regular {
 .navDos {
   background-color: rgb(0, 0, 0);
 }
-
 .navDos ul {
   list-style-type: none;
   padding: 0;
@@ -183,7 +160,6 @@ body .permanent-marker-regular {
   justify-content: center;
   gap: 10px;
 }
-
 .navDos a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -215,11 +191,6 @@ body .permanent-marker-regular {
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   color: rgb(255, 255, 255);
   padding: 10px;
   z-index: 1;
@@ -253,7 +224,6 @@ body .permanent-marker-regular {
 
 .card-menuhtml {
   height: 100%;
-  background-color: rgb(0, 0, 0);
 }
 
 .card-img-menuhtml {
@@ -267,15 +237,34 @@ body .permanent-marker-regular {
   padding: 0.5rem;
 }
 
-.card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.prueba {
+  background-color: rgb(223, 211, 211);
 }
 
-/* Media query para pantallas medianas (tablet) */
+.prueba-uno {
+  background-color: rgb(209, 201, 201);
+}
+
+.prueba-dos {
+  background-color: rgb(182, 174, 174);
+}
+
+.prueba-tres {
+  background-color: rgb(158, 151, 151);
+}
+
+.prueba-cuatro {
+  background-color: rgb(92, 88, 88);
+}
+
+.prueba-cinco {
+  background-color: rgb(51, 45, 45);
+}
+
+.prueba-seis {
+  background-color: rgb(0, 0, 0);
+}
+
 @media (max-width: 768px) {
   .carousel-caption h5 {
     font-size: 4rem;
@@ -285,29 +274,6 @@ body .permanent-marker-regular {
   }
   .carousel-caption p {
     font-size: 1.5rem;
-  }
-}
-/* Media query para pantallas pequeñas (móviles) */
-@media (max-width: 576px) {
-  .carousel-caption {
-    padding: 0.5rem;
-    width: 100%;
-    overflow: visible; /* Permite que el contenido se muestre completo */
-  }
-  .carousel-caption h5 {
-    font-size: 3rem;
-    margin-top: 3rem;
-    margin-left: 0;
-  }
-  .carousel-caption h6 {
-    font-size: 3rem;
-  }
-  .carousel-caption p {
-    font-size: 1rem;
-  }
-  .navbar {
-    top: 4rem;
-    position: absolute;
   }
 }
 @media (min-width: 992px) {
@@ -358,7 +324,37 @@ body .permanent-marker-regular {
     margin-bottom: 1rem;
   }
   .navbar__mobile {
-    width: 22rem;
+    width: 30rem;
+    min-height: 8rem;
+    background-image: url("../images/fondoNav5.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    padding: 0.5rem;
+    width: 100%;
+    overflow: visible;
+  }
+  .carousel-caption h5 {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+  .carousel-caption h6 {
+    font-size: 3rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .navbar {
+    top: 4rem;
+    position: absolute;
+  }
+  .navbar__mobile {
+    width: 20rem;
     min-height: 8rem;
     background-image: url("../images/fondoNav5.jpg");
     background-size: 100% 100%;

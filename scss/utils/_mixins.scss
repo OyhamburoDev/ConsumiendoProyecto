@@ -1,0 +1,5 @@
+@mixin font-family-and-size ($tamano, $fuente, $estilo: normal){
+    font-size: $tamano;
+    font-family: $fuente;
+    font-style: $estilo;
+}

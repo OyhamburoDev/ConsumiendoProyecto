@@ -1,6 +1,8 @@
-@import './partials/_variables';
-@import './partials/base';
-@import './partials/carousel';
-@import './partials/_navbar';
-@import './partials/cards';
-@import './partials/media-queries'
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/extends';
+@import './partials/base/base';
+@import './partials/layouts/carousel';
+@import './partials/components/navbar';
+@import './partials/components/cards';
+@import './partials/media-queries/media-queries';

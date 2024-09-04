@@ -1,7 +1,5 @@
 .headerClass {
     position: relative;
-  
-    /* overflow: hidden; */
     margin-top: auto;
   }
   
@@ -25,35 +23,25 @@
     width: $carousel-caption-width;
     z-index: 10;
     overflow: visible;
-  }
   
-  .carousel-caption h5,
-  .carousel-caption h6,
-  .carousel-caption p {
-    line-height: 1.2; /* Ajusta para evitar cortes */
-    padding: 0;
-  }
-  
-  .carousel-caption h5 {
-    font-size: 6rem;
+  h5 {
+    @include font-family-and-size(6rem, "Permanent Marker", cursive);
     font-weight: normal;
     line-height: 0.8;
-    font-family: "Permanent Marker", cursive;
   }
   
-  .carousel-caption p {
-    font-size: 2rem;
-    font-family: "Permanent Marker", cursive;
+  p {
+   @include font-family-and-size(2rem, "Permanent Marker", cursive);
   }
   
-  .carousel-caption h6 {
-    font-size: 6rem;
+  h6 {
+    @include font-family-and-size(6rem, "Permanent Marker", cursive);
     font-weight: normal;
     line-height: 1;
-    font-family: "Permanent Marker", cursive;
   }
+}
 
-   /* Estilos segunda foto del carousel */
-   .artistasBurger {
-    filter: brightness(0.6); /* Ajusta el brillo para oscurecer la imagen */
-  }
+     /* Estilos segunda foto del carousel */
+     .artistasBurger {
+      filter: brightness(0.6); /* Ajusta el brillo para oscurecer la imagen */
+    }

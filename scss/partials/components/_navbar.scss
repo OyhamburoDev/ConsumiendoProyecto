@@ -1,18 +1,4 @@
-
-  .navbar {
-    background-color: $color-gray-dark !important;
-    z-index: 1050;
-    position: absolute;
-    top: $navbar-height;
-    left: 0;
-    width: 100%;
-    border-bottom: 1px solid $color-gray-light;
-    padding: $navbar-padding;
-    border: none;
-    box-shadow: none;
-  }
-  
-  .navbar-toggler {
+.navbar-toggler {
     border-color: $color-white;
   }
   
@@ -70,11 +56,7 @@
   }
   
   .navDesk__item__1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 0;
-    width: 100%;
+   @extend %flex-space-around;
   }
   
   .navDesk__item__2 {
@@ -83,11 +65,7 @@
   }
   
   .navDesk__item__3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 0;
-    width: 100%;
+  @extend %flex-space-around;
   }
   
   .nav-item {
@@ -101,23 +79,23 @@
   /* Segundo archivo html (menu.hmtl) */
   .navDos {
     background-color: $color-black;
-  }
-  
-  .navDos ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .navDos a {
-    text-decoration: none;
-    color: $color-white;
-    padding: 10px;
-    font-size: 1.2rem;
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    a {
+      text-decoration: none;
+      color: $color-white;
+      padding: 10px;
+      font-size: 1.2rem;
+    }
   }
   
   

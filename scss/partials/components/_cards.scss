@@ -22,11 +22,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    @extend %flex-cards;
     color: $color-white;
     padding: 10px;
     z-index: 1;
@@ -58,11 +54,10 @@
     font-size: 3rem;
   }
 
-  // Cards del segundo archivo html
 
+  // Cards del segundo archivo html
   .card-menuhtml {
     height: 100%;
-    background-color: $color-black;
   }
   .card-img-menuhtml {
     width: 100%;
@@ -75,9 +70,30 @@
     padding: 0.5rem;
   }
   .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+ @extend %flex-cards;
   }
+
+  //lista de colores gradientes para las cards
+  .prueba{
+    background-color: nth($cards-background-colors, 7);
+  }
+  .prueba-uno{
+    background-color: nth($cards-background-colors, 6);
+  }
+  .prueba-dos{
+    background-color: nth($cards-background-colors, 5);
+  }
+  .prueba-tres{
+    background-color: nth($cards-background-colors, 4);
+  }
+  .prueba-cuatro{
+    background-color: nth($cards-background-colors, 3);
+  }
+  .prueba-cinco{
+    background-color: nth($cards-background-colors, 2);
+  }
+  .prueba-seis{
+    background-color: nth($cards-background-colors, 1);
+  }
+
+

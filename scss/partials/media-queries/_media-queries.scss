@@ -1,5 +1,4 @@
- /* Media query para pantallas medianas (tablet) */
- @media (max-width: 768px) {
+@media (max-width: 768px) {
     .carousel-caption h5 {
       font-size: 4rem;
     }
@@ -12,31 +11,7 @@
       font-size: 1.5rem;
     }
   }
-  
-  /* Media query para pantallas pequeñas (móviles) */
-  @media (max-width: 576px) {
-    .carousel-caption {
-      padding: 0.5rem;
-      width: 100%;
-      overflow: visible; /* Permite que el contenido se muestre completo */
-    }
-    .carousel-caption h5 {
-      font-size: 3rem;
-      margin-top: 3rem;
-      margin-left: 0;
-    }
-    .carousel-caption h6 {
-      font-size: 3rem;
-    }
-    .carousel-caption p {
-      font-size: 1rem;
-    }
-    .navbar {
-      top: 4rem;
-      position: absolute;
-    }
-  }
-  
+
   @media (min-width: 992px) {
     header {
       height: 140vh;
@@ -63,6 +38,9 @@
       max-height: 140vh;
     }
   }
+
+
+  //Armado del menú hamburguesa responsive
   @media (max-width: 992px) {
     .navDesk__item__3 {
       display: none;
@@ -86,7 +64,38 @@
       margin-bottom: 1rem;
     }
     .navbar__mobile {
-      width: 22rem;
+      width: 30rem;
+      min-height: 8rem;
+      background-image: url("../images/fondoNav5.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      padding-top: 1rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .carousel-caption {
+      padding: 0.5rem;
+      width: 100%;
+      overflow: visible; 
+    }
+    .carousel-caption h5 {
+      font-size: 3rem;
+      margin-top: 3rem;
+      margin-left: 0;
+    }
+    .carousel-caption h6 {
+      font-size: 3rem;
+    }
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+    .navbar {
+      top: 4rem;
+      position: absolute;
+    }
+    .navbar__mobile {
+      width: 20rem;
       min-height: 8rem;
       background-image: url("../images/fondoNav5.jpg");
       background-size: 100% 100%;
