@@ -1,0 +1,51 @@
+.contact-page {
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle at center, $red-light, $red-dark);
+  color: rgb(252, 250, 247);
+}
+
+.contacto-header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  h1{
+    font-size: 4rem;
+    color: rgba(252, 178, 82, 0.76)
+  }
+  h2{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+ 
+}
+.container-contacto{
+margin-bottom: 3rem;
+}
+
+
+/* Estilos personalizados para el footer */
+.footer-contacto {
+  background: linear-gradient(135deg, #0a090a, #210336); /* Tonos de rojo simulando fuego */
+  color: white;
+  padding: 20px 0;
+  padding-bottom: 0;
+  height: 7rem;
+
+  a {
+    color: #f8f9fa;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+        
+

@@ -1,4 +1,4 @@
-body {
+.body-index {
     background-image: url(../images/fondoPage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,5 +9,22 @@ body {
       font-weight: $font-weight-normal;
       font-style: $font-style-normal;
     }
+  }
+  
+
+  .body-artistas {
+    background: radial-gradient(circle at center, $red-light, $red-dark);
+    background-repeat: no-repeat; /* Evita que el fondo se repita */
+    background-size: cover; /* Asegura que el fondo cubra toda el área del body */
+    background-attachment: fixed; /* Hace que el fondo esté fijo mientras se hace scroll (opcional) */
+    color: wheat;
+  }
+  
+  .historia-body{
+    background: radial-gradient(circle at center, $red-light, $red-dark);
+    background-repeat: no-repeat; /* Evita que el fondo se repita */
+    background-size: cover; /* Asegura que el fondo cubra toda el área del body */
+    background-attachment: fixed; /* Hace que el fondo esté fijo mientras se hace scroll (opcional) */
+    color: wheat;
   }
   

@@ -3,6 +3,8 @@ $color-white: rgb(255, 255, 255);
 $color-black: rgb(0, 0, 0);
 $color-gray-dark: rgba(0, 0, 0, 0.9);
 $color-gray-light: rgba(255, 255, 255, 0.1);
+$red-light: darken(#4b0082, 10%); // Oscurecer el color un 10%
+$red-dark: darken(#000000, 10%);  // Oscurecer el color un 10%
 
 //Lista de colores
 $cards-background-colors: (

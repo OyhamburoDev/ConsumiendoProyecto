@@ -97,3 +97,51 @@
   }
 
 
+
+.card-artistas{
+  h5{
+    text-align: center;
+  }
+}
+
+  .music-card {
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamiento */
+    background-color: #222; /* Fondo oscuro para la tarjeta */
+    color: #fff; /* Texto blanco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
+  }
+  
+  .music-card-img {
+    width: 100%; /* Imagen de ancho completo */
+    height: 12rem; /* Altura automática */
+    border-bottom: 1px solid #444; /* Línea inferior */
+  }
+  
+  .music-card-body {
+    padding: 15px; /* Espaciado interno */
+    height: 9rem;
+  }
+  
+  .music-card-title {
+    font-size: 1.25rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+  }
+  
+  .music-card-embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+    background: #000; /* Fondo negro para el reproductor */
+    border-radius: 5px; /* Bordes redondeados del reproductor */
+  }
+  
+  .music-card-embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+  }

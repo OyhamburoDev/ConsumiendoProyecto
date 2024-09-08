@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto Consumiento Infiernos</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="contact-page">
+    <!--Aquí comienza el Header-->
+    <header id="contacto-html" class="contacto-header container mt-4">
+      <h1>Somos todo oídos</h1>
+      <h2>Complete el formulario para iniciar la conversación.</h2>
+    </header>
+
+    <!-- Aquí comienza el Main-->
+    <main>
+      <div class="container mt-4 mb-4 container-grid">
+        <div class="row">
+          <section class="col-lg-5">
+            <h3>¿Necesitas Ayuda con tu Pedido o Información Adicional?</h3>
+            <p>
+              No importa si tienes preguntas sobre nuestro menú, quieres hacer
+              una reserva, o simplemente necesitas más información sobre
+              nuestras deliciosas hamburguesas y promociones, ¡estamos aquí para
+              ayudarte! No dudes en ponerte en contacto con nosotros. Estaremos
+              encantados de atenderte y ofrecerte la mejor experiencia
+              gastronómica posible. Nos apasiona ofrecer un excelente servicio y
+              escuchar a nuestros clientes para seguir mejorando. Si quieres
+              compartir tus sugerencias, comentar sobre una experiencia
+              reciente, o incluso hablar sobre ideas para eventos especiales y
+              catering, no dudes en enviarnos un mensaje. ¡Estamos ansiosos por
+              escuchar tus comentarios y ayudarte a disfrutar de nuestras
+              hamburguesas como nunca antes!
+            </p>
+          </section>
+
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5 container-grid-dos">
+            <h2>Contacto</h2>
+            <p>
+              ¿Tienes alguna pregunta sobre nuestro menú o quieres hacer una
+              reserva? Completa el formulario a continuación y nos pondremos en
+              contacto contigo pronto.
+            </p>
+
+            <form action="submit_form.php" method="post">
+              <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Teléfono:</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Aquí comienza el footer-->
+    <footer class="footer-contacto text-center">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2024 Consumiento Infiernos. Todos los derechos reservados.
+        </p>
+        <p>
+          <a href="../index.html">Página principal</a> |
+          <a href="#contacto-html">Volver</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </body>
+</html>

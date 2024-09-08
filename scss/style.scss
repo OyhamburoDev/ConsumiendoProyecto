@@ -6,3 +6,12 @@
 @import './partials/components/navbar';
 @import './partials/components/cards';
 @import './partials/media-queries/media-queries';
+
+
+// Importación de archivos de pie de página
+@import './partials/components/footers';  // Archivo _footers.scss
+
+
+// Importación de páginas específicas
+@import './pages/contacto';  // Página de contacto
+@import './pages/historia-origin';  // Página de contacto
