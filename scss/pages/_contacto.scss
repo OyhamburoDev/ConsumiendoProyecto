@@ -2,7 +2,7 @@
   height: 100vh;
   margin: 0;
   background: radial-gradient(circle at center, $red-light, $red-dark);
-  color: rgb(252, 250, 247);
+  color: $color-white;
 }
 
 .contacto-header{
@@ -33,13 +33,13 @@ margin-bottom: 3rem;
 /* Estilos personalizados para el footer */
 .footer-contacto {
   background: linear-gradient(135deg, #0a090a, #210336); /* Tonos de rojo simulando fuego */
-  color: white;
+  color:$color-white;
   padding: 20px 0;
   padding-bottom: 0;
   height: 7rem;
 
   a {
-    color: #f8f9fa;
+    color: $color-white;
     text-decoration: none;
 
     &:hover {

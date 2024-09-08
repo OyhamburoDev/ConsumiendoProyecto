@@ -15,6 +15,13 @@
   width: 100%;
 }
 
+.historia-body, .body-artistas {
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  background-size: cover; /* Asegura que el fondo cubra toda el área del body */
+  background-attachment: fixed; /* Hace que el fondo esté fijo mientras se hace scroll (opcional) */
+  color: rgb(245, 222, 179);
+}
+
 .body-index {
   background-image: url(../images/fondoPage.jpg);
   background-repeat: no-repeat;
@@ -30,18 +37,10 @@
 
 .body-artistas {
   background: radial-gradient(circle at center, #2e004f, black);
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  background-size: cover; /* Asegura que el fondo cubra toda el área del body */
-  background-attachment: fixed; /* Hace que el fondo esté fijo mientras se hace scroll (opcional) */
-  color: wheat;
 }
 
 .historia-body {
   background: radial-gradient(circle at center, #2e004f, black);
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  background-size: cover; /* Asegura que el fondo cubra toda el área del body */
-  background-attachment: fixed; /* Hace que el fondo esté fijo mientras se hace scroll (opcional) */
-  color: wheat;
 }
 
 .headerClass {
@@ -240,7 +239,7 @@
 }
 
 .card-menuhtml {
-  height: 100%;
+  height: 90%;
 }
 
 .card-img-menuhtml {
@@ -373,16 +372,16 @@
   .contacto-header {
     height: auto;
     width: 80%;
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
-    text-align: left; /* Alinea el texto a la izquierda dentro del contenedor */
+    margin: 0 auto;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Alinea los elementos al inicio del contenedor */
-    align-items: center; /* Centra los elementos horizontalmente en el contenedor */
+    justify-content: flex-start;
+    align-items: center;
   }
   .contacto-header p {
-    text-align: left; /* Alinea el texto dentro del párrafo a la izquierda */
-    width: 100%; /* Asegura que el párrafo ocupe todo el ancho del contenedor */
+    text-align: left;
+    width: 100%;
   }
   .body-index .header-menu {
     height: 3rem;
@@ -491,7 +490,7 @@
   height: 100vh;
   margin: 0;
   background: radial-gradient(circle at center, #2e004f, black);
-  color: rgb(252, 250, 247);
+  color: rgb(255, 255, 255);
 }
 
 .contacto-header {
@@ -521,13 +520,13 @@
 /* Estilos personalizados para el footer */
 .footer-contacto {
   background: linear-gradient(135deg, #0a090a, #210336); /* Tonos de rojo simulando fuego */
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 20px 0;
   padding-bottom: 0;
   height: 7rem;
 }
 .footer-contacto a {
-  color: #f8f9fa;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .footer-contacto a:hover {

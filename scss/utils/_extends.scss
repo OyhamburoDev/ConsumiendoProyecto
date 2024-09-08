@@ -13,3 +13,10 @@
     padding-left: 0;
     width: 100%;
 }
+
+%background-body {
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  background-size: cover; /* Asegura que el fondo cubra toda el área del body */
+  background-attachment: fixed; /* Hace que el fondo esté fijo mientras se hace scroll (opcional) */
+  color: rgb(245, 222, 179);
+}
