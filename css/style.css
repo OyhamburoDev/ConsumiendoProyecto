@@ -23,7 +23,7 @@
 }
 
 .body-index {
-  background-image: url(../images/fondoPage.jpg);
+  background-color: rgb(0, 0, 0);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -368,25 +368,28 @@
     transform: translate(-50%, -50%);
     z-index: 1051;
   }
-  /* Estilos para pagina contacto.html */
-  .contacto-header {
-    height: auto;
-    width: 80%;
-    margin: 0 auto;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .contacto-header p {
-    text-align: left;
-    width: 100%;
-  }
-  .body-index .header-menu {
-    height: 3rem;
-  }
 }
+/* Estilos para pagina contacto.html */
+.contacto-header {
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contacto-header p {
+  text-align: left;
+  width: 100%;
+}
+
+.body-index .header-menu {
+  height: 3rem;
+}
+
 @media (min-width: 1200px) {
   header {
     height: 100vh;
@@ -486,6 +489,259 @@
   font-size: 0.8rem; /* Tamaño de fuente para el copyright */
 }
 
+#contenido-nuevo {
+  display: none; /* Ocultar por defecto (en mobile) */
+}
+
+#contenido-nuevo-dos {
+  display: none; /* Ocultar por defecto (en mobile) */
+}
+
+.franchise {
+  background-color: rgb(0, 0, 0);
+  padding: 50px 20px;
+  text-align: center;
+}
+.franchise .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.franchise .container i {
+  font-size: 3.5rem;
+}
+.franchise .container h2 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+.franchise .container h3 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+.franchise .container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+.franchise .container p strong {
+  color: #d9534f;
+}
+.franchise .container ul {
+  list-style-type: disc;
+  margin: 20px auto;
+  padding: 0;
+  max-width: 600px;
+  text-align: left;
+}
+.franchise .container ul li {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  margin: 10px 0;
+}
+.franchise .container a {
+  color: #d9534f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.franchise .container a:hover {
+  text-decoration: underline;
+}
+
+.franchise-tres {
+  background-color: rgb(0, 0, 0);
+  padding: 40px 20px 60px 20px;
+  text-align: center;
+}
+.franchise-tres .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.franchise-tres .container .video-container video {
+  border-radius: 15px; /* Ajusta el radio según tus necesidades */
+  border: 2px solid #d9534f; /* Borde de 2px de grosor */
+  border-radius: 10px; /* Redondear los bordes del borde */
+  filter: opacity(80%);
+}
+.franchise-tres .container h2 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+.franchise-tres .container h3 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+.franchise-tres .container h4 {
+  font-size: 1.5rem;
+  color: #d9534f;
+  margin-top: 3rem;
+}
+.franchise-tres .container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+.franchise-tres .container p strong {
+  color: #d9534f;
+}
+.franchise-tres .container ul {
+  list-style-type: disc;
+  margin: 20px auto;
+  padding: 0;
+  max-width: 600px;
+  text-align: left;
+}
+.franchise-tres .container ul li {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  margin: 10px 0;
+}
+.franchise-tres .container a {
+  color: #d9534f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.franchise-tres .container a:hover {
+  text-decoration: underline;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  background: rgb(0, 0, 0);
+  margin: 20px 0;
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.container-logos {
+  background-color: rgb(255, 255, 255);
+}
+
+@media (min-width: 768px) {
+  .franchise {
+    background-color: rgb(0, 0, 0); /* Color negro en formato hexadecimal */
+    padding: 100px 20px 50px 20px;
+    text-align: center; /* Centra el texto dentro del contenedor */
+  }
+  .franchise .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .franchise .container h2 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+  }
+  .franchise .container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    /* Justifica el texto para eliminar los espacios irregulares */
+    text-align: justify;
+  }
+  .franchise .container p strong {
+    color: #d9534f;
+  }
+  .franchise-dos {
+    background-color: rgb(0, 0, 0);
+    padding: 40px 0px 60px 0px;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+  }
+  .franchise-dos .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px;
+    padding: 0 15px;
+  }
+}
+@media (min-width: 768px) {
+  .franchise-dos {
+    background-color: rgb(0, 0, 0);
+    padding: 40px 0px 60px 0px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+  .franchise-dos .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 15px;
+  }
+  .franchise-dos h2 {
+    font-size: 2.5rem;
+  }
+  .franchise-dos .container-logos i {
+    color: rgb(226, 176, 37) !important;
+    font-size: 5rem;
+  }
+  #contenedor-tres {
+    display: none; /* Ocultar en pantallas mayores a 768px */
+  }
+  #contenido-nuevo {
+    display: block; /* Ocultar por defecto (en mobile) */
+  }
+  #contenido-nuevo .video-container video {
+    border-radius: 15px; /* Ajusta el radio según tus necesidades */
+    border: 2px solid #d9534f; /* Borde de 2px de grosor */
+    border-radius: 10px; /* Redondear los bordes del borde */
+    filter: opacity(80%);
+  }
+  #contenido-nuevo h3 {
+    color: rgb(226, 176, 37); /* Cambia el color del h3 en el nuevo contenido */
+    font-size: 3rem; /* Ejemplo de tamaño de fuente */
+  }
+  #contenido-nuevo h4 {
+    color: white;
+    text-align: center;
+  }
+  #contenido-nuevo i {
+    color: white;
+    text-align: center;
+  }
+  #contenido-nuevo p {
+    color: white;
+    text-align: center;
+  }
+  #contenido-nuevo-dos {
+    display: block; /* Ocultar por defecto (en mobile) */
+    text-align: center; /* Centrar el contenido */
+    padding: 20px; /* Espacio interno */
+  }
+  #contenido-nuevo-dos h4 {
+    color: white;
+    margin-bottom: 15px; /* Espacio debajo del h4 */
+    font-size: 3rem;
+  }
+  #contenido-nuevo-dos p {
+    color: white;
+    margin-bottom: 20px; /* Espacio debajo del párrafo */
+    font-size: 1.8rem;
+  }
+  #contenido-nuevo-dos .btn {
+    /* Opcional: Personaliza el botón si es necesario */
+    margin-top: 10px; /* Espacio arriba del botón */
+    font-size: 2rem;
+    color: #d9534f;
+  }
+}
 .contact-page {
   height: 100vh;
   margin: 0;

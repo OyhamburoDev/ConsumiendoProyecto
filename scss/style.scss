@@ -11,6 +11,9 @@
 // Importación de archivos de pie de página
 @import './partials/components/footers';  // Archivo _footers.scss
 
+// Importación de la página de inicio (index)
+@import './pages/index';  // Página de inicio
+
 
 // Importación de páginas específicas
 @import './pages/contacto';  // Página de contacto

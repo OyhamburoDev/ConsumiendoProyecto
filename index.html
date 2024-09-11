@@ -24,6 +24,7 @@
   </head>
 
   <body class="body-index">
+    <!--Aquí comienza la barra de navegación-->
     <nav class="navDesktop">
       <ul class="navDesk__item__1">
         <li class="">
@@ -60,7 +61,7 @@
       </ul>
     </nav>
 
-    <!-- Botón de menú hamburguesa -->
+    <!-- Botón responsive para el menú hamburguesa -->
     <div class="button__nav">
       <button
         class="navbar-toggler"
@@ -89,6 +90,7 @@
       </ul>
     </div>
 
+    <!--Aquí comienza el header con sus dos imagenes principales-->
     <header class="headerClass">
       <div
         id="headerCarousel"
@@ -125,6 +127,7 @@
       </div>
     </header>
 
+    <!--Contenedor para las tres cards debajo del header-->
     <div class="container-fluid">
       <div class="row">
         <!-- Card 1 -->
@@ -185,8 +188,151 @@
       </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer text-center py-4 footer-index">
+    <!--Aquí comienza el main para mobile-->
+    <main>
+      <!--Primer contenedor-->
+      <section id="contenedor-uno" class="franchise">
+        <div class="container">
+          <h2 class="mb-0">¡Franquíciate con Nosotros!</h2>
+          <i class="bi bi-dash-lg text-white icono-linea"></i>
+          <p>
+            Estamos en busca de franquiciados e inversores que compartan nuestra
+            visión y nos ayuden a abrir locales físicos. A cambio, te ofrecemos
+            un completo soporte de marketing digital y acceso a nuestros
+            valiosos contactos en el mundo de la música y el arte urbano.
+          </p>
+          <p>
+            Si estás interesado en ser parte de esta experiencia única y
+            lucrativa,
+            <a href="./pages/contacto.html">contáctanos.</a>
+          </p>
+        </div>
+      </section>
+      <!--Segundo contenedor-->
+      <section id="contenedor-dos" class="franchise-dos">
+        <div class="container-fluid">
+          <div class="row text-center container-logos">
+            <h2 class="mt-4"><strong>¿Qué te garantizamos?</strong></h2>
+            <div class="col-md-4 contenedor-icono mt-4 mb-3">
+              <i class="bi bi-instagram text-dark icono-yellow"></i>
+              <p>Gestión profesional de redes sociales</p>
+            </div>
+            <div class="col-md-4 contenedor-icono mt-4 mb-3">
+              <i class="bi bi-music-note-list text-dark icono-yellow"></i>
+              <p>Colaboraciones exclusivas con artistas</p>
+            </div>
+            <div class="col-md-4 contenedor-icono mt-4 mb-3">
+              <i class="bi bi-graph-up-arrow text-dark icono-yellow"></i>
+              <p>Un concepto innovador y en constante crecimiento</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Tercer Contenedor -->
+      <section id="contenedor-tres" class="franchise-tres">
+        <div class="container">
+          <h3><strong>Mira quienes nos eligen!</strong></h3>
+          <div class="video-container">
+            <video
+              src="./videos/streaming-comiendo.mp4"
+              autoplay
+              loop
+              muted
+              playsinline
+              controls="false"
+            >
+              Tu navegador no soporta la etiqueta de video.
+            </video>
+          </div>
+          <p>
+            Luck Ra: 10,292,514 oyentes mensuales en Spotify. 5,200,000 de
+            seguidores en redes. 270,000,000 de reproducciones en YouTube.
+          </p>
+          <div class="video-container">
+            <video
+              src="./videos/Dillom-comiendo.mp4"
+              autoplay
+              loop
+              muted
+              playsinline
+              controls="false"
+            >
+              Tu navegador no soporta la etiqueta de video.
+            </video>
+          </div>
+          <p>Dillom: 2,332,008 oyentes mensuales en Spotify.</p>
+          <h4>Aprende y crece con nosotros!</h4>
+          <p>
+            Aseguramos acceso a una red exclusiva de contactos de alto nivel.
+          </p>
+          <a href="./pages/contacto.html" class="btn btn-warning btn-lg"
+            >Quiero mi Franquicia</a
+          >
+        </div>
+      </section>
+      <!-- Main para pantallas desktop-->
+      <div id="contenido-nuevo" class="container mt-4 mb-4 container-grid">
+        <div class="row">
+          <section class="col-lg-5">
+            <div class="video-container">
+              <video
+                class="w-80"
+                src="./videos/streaming-comiendo.mp4"
+                autoplay
+                loop
+                muted
+                playsinline
+                controls="false"
+              >
+                Tu navegador no soporta la etiqueta de video.
+              </video>
+            </div>
+            <div class="video-container">
+              <video
+                class="w-80"
+                src="./videos/Dillom-comiendo.mp4"
+                autoplay
+                loop
+                muted
+                playsinline
+                controls="false"
+              >
+                Tu navegador no soporta la etiqueta de video.
+              </video>
+            </div>
+          </section>
+
+          <div class="col-lg-1"></div>
+          <div
+            class="col-lg-6 container-grid-dos d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3><strong>Mira quienes nos eligen!</strong></h3>
+            <h4>Luck Ra:</h4>
+            <i class="bi bi-spotify fs-1"></i>
+            <p>10,292,514 oyentes mensuales en Spotify.</p>
+            <i class="bi bi-instagram fs-1"></i>
+            <p>5,200,000 de seguidores en redes.</p>
+            <i class="bi bi-youtube fs-1"></i>
+            <p>270,000,000 de reproducciones en YouTube.</p>
+            <h4>Dillom:</h4>
+            <i class="bi bi-spotify fs-1"></i>
+            <p>2,332,008 oyentes mensuales en Spotify.</p>
+            <i class="bi bi-instagram fs-1"></i>
+            <p>2,200,000 de seguidores en redes.</p>
+          </div>
+        </div>
+      </div>
+      <div id="contenido-nuevo-dos">
+        <h4 class="mt-5">Aprende y crece con nosotros!</h4>
+        <p>Aseguramos acceso a una red exclusiva de contactos de alto nivel.</p>
+        <a href="./pages/contacto.html" class="btn btn-warning btn-lg"
+          >Quiero mi Franquicia</a
+        >
+      </div>
+    </main>
+
+    <!-- Aquí comienza el Footer -->
+    <footer class="footer text-center py-5 footer-index">
       <div class="container">
         <h1 class="footer-title-index">Best Burger in the World</h1>
         <p class="footer-info-index">
