@@ -253,15 +253,15 @@
       font-size: 3rem; /* Ejemplo de tamaño de fuente */
     }
     h4{
-      color: white;
+      color: $color-white;
       text-align: center;
     }
     i{
-      color: white;
+      color: $color-white;
       text-align: center;
     }
     p{
-      color: white;
+      color: $color-white;
       text-align: center;
     }
   }
@@ -271,13 +271,13 @@
     padding: 20px; /* Espacio interno */
     
     h4 {
-      color: white;
+      color: $color-white;
       margin-bottom: 15px; /* Espacio debajo del h4 */
       font-size: 3rem;
     }
 
     p {
-      color: white;
+      color: $color-white;
       margin-bottom: 20px; /* Espacio debajo del párrafo */
       font-size: 1.8rem;
     }

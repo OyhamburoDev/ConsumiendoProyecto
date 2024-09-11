@@ -1,22 +1,18 @@
+
+// Estilos para el boton hamburguesa
 .navbar-toggler {
     border-color: $color-white;
   }
-  
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   
-  .navbar-brand {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
+  //color blanco para todos los a
   .nav-link {
     color: $color-white;
   }
   
+  //estilos para el logo principal
   .logofoto {
     width: 8rem;
     height: 8rem;
@@ -24,21 +20,14 @@
     object-fit: cover;
   }
   
+  //continuan los estilos para el boton hamburguesa
   .navbar-nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
   
-  /* Ajusta el espaciado entre los enlaces */
-  .navbar-collapse {
-    transition: background-color 0.3s ease;
-  }
-  
-  .navbar-toggler:focus + .navbar-collapse {
-    background-color: rgba(128, 128, 128, 0.9);
-  }
-  
+  //continuan los estilos para el boton hamburguesa
   .navbar-collapse {
     background-color: $color-black;
   }
@@ -53,8 +42,8 @@
     position: absolute;
     z-index: 99;
     margin-top: 3rem;
+    
   }
-  
   .navDesk__item__1 {
    @extend %flex-space-around;
   }
@@ -70,6 +59,19 @@
   
   .nav-item {
     list-style-type: none;
+    font-weight: bold;
+  }
+
+  .nav-link-uno {
+    color: $color-white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    padding-bottom: 6px; /* Espacio entre el texto y el subrayado */
+  }
+  
+  .nav-link-uno:hover {
+    border-bottom: 4px solid #ffffff; 
   }
   
   .button__nav {
