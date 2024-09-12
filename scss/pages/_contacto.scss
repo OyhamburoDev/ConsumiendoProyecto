@@ -4,18 +4,21 @@
   background: radial-gradient(circle at center, $red-light, $red-dark);
   color: $color-white;
 }
-
+// Estilos para header de página contacto.html
 .contacto-header{
   display: flex;
   flex-direction: column;
   text-align: center;
+
   h1{
     font-size: 4rem;
     color: rgba(252, 178, 82, 0.76)
+    
   }
   h2{
     font-size: 1.8rem;
     margin-bottom: 3rem;
+    color: white;
   }
   h3{
     font-size: 1rem;

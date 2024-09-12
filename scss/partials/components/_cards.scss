@@ -101,22 +101,24 @@
 .card-artistas{
   h5{
     text-align: center;
+    @include font-family-and-size( "Permanent Marker", cursive);
   }
 }
 
   .music-card {
-    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border: 1px solid #0c0b0b; /* Borde de la tarjeta */
     border-radius: 10px; /* Bordes redondeados */
     overflow: hidden; /* Ocultar desbordamiento */
-    background-color: #222; /* Fondo oscuro para la tarjeta */
-    color: #fff; /* Texto blanco */
+    background-color: #000000; /* Fondo oscuro para la tarjeta */
+    color: #fff; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
   }
   
   .music-card-img {
     width: 100%; /* Imagen de ancho completo */
     height: 12rem; /* Altura automática */
-    border-bottom: 1px solid #444; /* Línea inferior */
+    border-bottom: 2px solid #972f2f; /* Línea inferior */
+    filter: opacity(90%);
   }
   
   .music-card-body {
