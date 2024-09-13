@@ -251,10 +251,12 @@
     h3 {
       color: rgb(226, 176, 37); /* Cambia el color del h3 en el nuevo contenido */
       font-size: 3rem; /* Ejemplo de tamaño de fuente */
+      
     }
     h4{
       color: $color-white;
       text-align: center;
+      @include font-family-and-size(1.5rem, "Permanent Marker", cursive);
     }
     i{
       color: $color-white;
@@ -289,4 +291,8 @@
       color: #d9534f;
     }  
   }
+  .clase-card-index{
+    @include font-family-and-size( "Permanent Marker", cursive);
+      }
 } // Cierre del bloque @media
+

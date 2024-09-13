@@ -712,6 +712,9 @@
   #contenido-nuevo h4 {
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 1.5rem;
+    font-family: "Permanent Marker";
+    font-style: cursive;
   }
   #contenido-nuevo i {
     color: rgb(255, 255, 255);
@@ -741,6 +744,11 @@
     margin-top: 10px; /* Espacio arriba del botón */
     font-size: 2rem;
     color: #d9534f;
+  }
+  .clase-card-index {
+    font-size: "Permanent Marker";
+    font-family: cursive;
+    font-style: normal;
   }
 }
 .contact-page {
@@ -797,6 +805,7 @@
   font-style: cursive;
   font-weight: normal;
   line-height: 0.8;
+  color: rgba(252, 178, 82, 0.76);
 }
 .h-uno-artistas h2 {
   font-size: 2rem;
