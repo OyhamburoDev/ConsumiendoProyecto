@@ -109,8 +109,8 @@
     border: 1px solid #0c0b0b; /* Borde de la tarjeta */
     border-radius: 10px; /* Bordes redondeados */
     overflow: hidden; /* Ocultar desbordamiento */
-    background: radial-gradient(circle at center, $red-light, $red-dark);
-    color: #fff; 
+    background: $color-black;
+    color: $color-white; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
   }
   
@@ -136,8 +136,9 @@
     padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
     height: 0;
     overflow: hidden;
-    background: #000; /* Fondo negro para el reproductor */
+    background: $color-black; /* Fondo negro para el reproductor */
     border-radius: 5px; /* Bordes redondeados del reproductor */
+    width: auto;
   }
   
   .music-card-embed-container iframe {

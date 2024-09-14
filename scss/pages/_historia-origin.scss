@@ -1,5 +1,37 @@
+.histori-body{
+  background-image: url('/images/fondo-artistas-uno.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.historia-introduccion{
+  h1{
+    color: $color-white;
+    @include font-family-and-size(2rem, "Permanent Marker", cursive);
+        font-size: 3rem;
+  }
+  p{
+    color:rgb(194, 137, 16);
+    @include font-family-and-size(2rem, "Permanent Marker", cursive);
+  }
+
+}
 .hito { 
     h3, p {
-      color: #000; /* Cambia a color negro o cualquier color oscuro deseado */
+      color: $color-black; /* Cambia a color negro o cualquier color oscuro deseado */
+    }
+  }
+
+
+  // Responsive para el titulo y subtitulo de la página
+  @media (min-width: 768px) {
+    .clase-historia{
+      height: 30rem;
+    }
+  }
+  // Responsive para el titulo y subtitulo de la página
+  @media (min-width: 992px) {
+    .clase-historia{
+      height: 24rem;
     }
   }

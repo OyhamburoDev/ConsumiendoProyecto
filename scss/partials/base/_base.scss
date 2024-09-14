@@ -11,15 +11,4 @@
     }
   }
   
-
-  .body-artistas {
-    background-color: black;
-    //background: radial-gradient(circle at center, $red-light, $red-dark);
-    @extend %background-body;
-  }
-  
-  .historia-body{
-    background: radial-gradient(circle at center, $red-light, $red-dark);
-    @extend %background-body;
-  }
   

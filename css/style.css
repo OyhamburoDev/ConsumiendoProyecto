@@ -15,13 +15,6 @@
   width: 100%;
 }
 
-.historia-body, .body-artistas {
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  background-size: cover; /* Asegura que el fondo cubra toda el área del body */
-  background-attachment: fixed; /* Hace que el fondo esté fijo mientras se hace scroll (opcional) */
-  color: rgb(245, 222, 179);
-}
-
 .body-index {
   background-color: rgb(0, 0, 0);
   background-repeat: no-repeat;
@@ -33,14 +26,6 @@
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
   font-style: normal;
-}
-
-.body-artistas {
-  background-color: black;
-}
-
-.historia-body {
-  background: radial-gradient(circle at center, #2e004f, black);
 }
 
 .headerClass {
@@ -153,7 +138,7 @@
 }
 
 .nav-link-uno:hover {
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 4px solid rgb(255, 255, 255);
 }
 
 .button__nav {
@@ -289,8 +274,8 @@
   border: 1px solid #0c0b0b; /* Borde de la tarjeta */
   border-radius: 10px; /* Bordes redondeados */
   overflow: hidden; /* Ocultar desbordamiento */
-  background: radial-gradient(circle at center, #2e004f, black);
-  color: #fff;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
 }
 
@@ -316,8 +301,9 @@
   padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
   height: 0;
   overflow: hidden;
-  background: #000; /* Fondo negro para el reproductor */
+  background: rgb(0, 0, 0); /* Fondo negro para el reproductor */
   border-radius: 5px; /* Bordes redondeados del reproductor */
+  width: auto;
 }
 
 .music-card-embed-container iframe {
@@ -463,7 +449,7 @@
 }
 .footer-index {
   background-color: #000 !important; /* Fondo negro */
-  color: #fff; /* Texto blanco */
+  color: rgb(255, 255, 255); /* Texto blanco */
 }
 
 .footer-title-index {
@@ -477,13 +463,13 @@
 }
 
 .footer-icons-index a {
-  color: #fff; /* Color de los íconos */
+  color: rgb(255, 255, 255); /* Color de los íconos */
   font-size: 1rem; /* Tamaño de los íconos */
   text-decoration: none; /* Quitar subrayado */
 }
 
 .footer-icons-index a:hover {
-  color: #ccc; /* Color de los íconos al pasar el mouse */
+  color: rgb(255, 255, 255); /* Color de los íconos al pasar el mouse */
 }
 
 .footer-copy-index {
@@ -693,7 +679,7 @@
     color: rgb(226, 176, 37) !important;
     font-size: 5rem;
   }
-  #contenedor-tres {
+  .contenedor-tres {
     display: none; /* Ocultar en pantallas mayores a 768px */
   }
   #contenido-nuevo {
@@ -754,8 +740,8 @@
 .contact-page {
   height: 100vh;
   margin: 0;
-  background: radial-gradient(circle at center, #2e004f, black);
   color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .contacto-header {
@@ -770,7 +756,7 @@
 .contacto-header h2 {
   font-size: 1.8rem;
   margin-bottom: 3rem;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .contacto-header h3 {
   font-size: 1rem;
@@ -779,24 +765,11 @@
   font-size: 1rem;
 }
 
-.container-contacto {
-  margin-bottom: 3rem;
-}
-
-/* Estilos personalizados para el footer */
-.footer-contacto {
-  background: linear-gradient(135deg, #0a090a, #210336); /* Tonos de rojo simulando fuego */
-  color: rgb(255, 255, 255);
-  padding: 20px 0;
-  padding-bottom: 0;
-  height: 7rem;
-}
-.footer-contacto a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-.footer-contacto a:hover {
-  text-decoration: underline;
+.body-artistas {
+  background-image: url("/images/fondo-artistas-uno.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .h-uno-artistas h1 {
@@ -806,10 +779,41 @@
   font-size: 3rem;
 }
 
-.hito h3, .hito p {
-  color: #000; /* Cambia a color negro o cualquier color oscuro deseado */
+.histori-body {
+  background-image: url("/images/fondo-artistas-uno.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
+.historia-introduccion h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-family: "Permanent Marker";
+  font-style: cursive;
+  font-size: 3rem;
+}
+.historia-introduccion p {
+  color: rgb(194, 137, 16);
+  font-size: 2rem;
+  font-family: "Permanent Marker";
+  font-style: cursive;
+}
+
+.hito h3, .hito p {
+  color: rgb(0, 0, 0); /* Cambia a color negro o cualquier color oscuro deseado */
+}
+
+@media (min-width: 768px) {
+  .clase-historia {
+    height: 30rem;
+  }
+}
+@media (min-width: 992px) {
+  .clase-historia {
+    height: 24rem;
+  }
+}
 .body-menu-dos {
   background-color: rgb(255, 255, 255);
 }

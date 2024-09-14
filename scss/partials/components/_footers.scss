@@ -1,6 +1,6 @@
 .footer-index {
     background-color: #000 !important; /* Fondo negro */
-    color: #fff; /* Texto blanco */
+    color: $color-white; /* Texto blanco */
   }
   
   .footer-title-index {
@@ -14,13 +14,13 @@
   }
   
   .footer-icons-index a {
-    color: #fff; /* Color de los íconos */
+    color: $color-white; /* Color de los íconos */
     font-size: 1rem; /* Tamaño de los íconos */
     text-decoration: none; /* Quitar subrayado */
   }
   
   .footer-icons-index a:hover {
-    color: #ccc; /* Color de los íconos al pasar el mouse */
+    color: $color-white; /* Color de los íconos al pasar el mouse */
   }
   
   .footer-copy-index {
