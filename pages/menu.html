@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu | Consumiendo Infiernos</title>
+    <title>Menú | Consumiendo Infiernos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,162 +16,180 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
-
-  <body class="body-index">
-    <header id="menu-html" class="header-menu">
-      <nav class="navDos">
-        <ul>
-          <li>
-            <a href="#carne">Carne</a>
-          </li>
-          <li>
-            <a href="#pollo">Pollo</a>
-          </li>
-          <li>
-            <a href="#vegana">CeroCarne</a>
-          </li>
-          <li>
-            <a href="#cafeteria">Cafetería</a>
-          </li>
-          <li>
-            <a href="#ensaladas">Ensaladas</a>
-          </li>
-          <li>
-            <a href="#postres">Postres</a>
-          </li>
-          <li>
-            <a href="#dips">Dips</a>
-          </li>
-          <li>
-            <a href="../index.html">Volver al inicio</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="container mt-4">
+  <body class="body-menu-dos">
+    <!--Aquí comienza el header-->
+    <header class="header-menu-dos">
+      <div class="container">
         <div class="row">
-          <!-- Card 1 -->
-          <div id="carne" class="col-sm-12 col-md-6 col-lg-4 card-padding">
-            <div class="card card-menuhtml card-carne">
-              <img
-                src="../images/carne.jpg"
-                class="card-img-top card-img-menuhtml"
-                alt="foto hamburguesa"
-              />
-              <div class="card-body text-white prueba-seis">
-                <h5 class="card-title">Hamburguesa de carne</h5>
-                <p class="card-text">
-                  Hamburguesa hecha con carne de ternera jugosa, acompañada de
-                  lechuga, tomate y nuestra salsa especial.
-                </p>
-              </div>
-            </div>
+          <div class="col-12 text-center">
+            <h1 class="display-1 display-md-5 mt-5 text-black">
+              Menú de hamburguesas
+            </h1>
           </div>
-          <!-- Card 2 -->
-          <div id="pollo" class="col-sm-12 col-md-6 col-lg-4 card-padding">
-            <div class="card card-menuhtml">
-              <img
-                src="../images/pollo.jpg"
-                class="card-img-top card-img-menuhtml"
-                alt="Hamburguesa 2"
-              />
-              <div class="card-body text-white prueba-cinco">
-                <h5 class="card-title">Hamburguesa de pollo</h5>
-                <p class="card-text">
-                  Pechuga de pollo a la parrilla con queso cheddar, lechuga
-                  fresca y mayonesa de ajo en pan artesanal.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card 3 -->
-          <div id="vegana" class="col-sm-12 col-md-6 col-lg-4 card-padding">
-            <div class="card card-menuhtml">
-              <img
-                src="../images/vegana.jpg"
-                class="card-img-top card-img-menuhtml"
-                alt="Hamburguesa 2"
-              />
-              <div class="card-body text-white prueba-cuatro">
-                <h5 class="card-title">Hamburguesa vegana</h5>
-                <p class="card-text">
-                  Deliciosa hamburguesa vegana con base de garbanzos, acompañada
-                  de vegetales frescos y salsa de aguacate.
-                </p>
+        </div>
+      </div>
+    </header>
+
+    <!--Aquí comienza el main-->
+    <main>
+      <div class="container">
+        <div class="row text-center g-1 gx-3">
+          <!-- Primer card -->
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 clase-menudos-gap">
+            <div class="card card-radius mb-3">
+              <div class="row g-0 justify-content-center">
+                <div class="col-md-6 card-menu-color card-negra">
+                  <div class="card-body">
+                    <h5 class="card-title text-white fs-2 mt-5">
+                      Infierno Simple
+                    </h5>
+                    <p class="card-text text-danger fs-5">$7000</p>
+                    <button class="btn btn-danger fs-5 rounded-pill">
+                      Añadir al carrito
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6 card-negra">
+                  <img
+                    src="../images/menu-simple.jpg"
+                    class="img-fluid rounded-start clase-img-menu"
+                    alt="Foto de hamburguesa simple"
+                  />
+                </div>
               </div>
             </div>
           </div>
 
-          <!-- Card 4 -->
-          <div id="cafeteria" class="col-sm-12 col-md-6 col-lg-4 card-padding">
-            <div class="card card-menuhtml">
-              <img
-                src="../images/cafeteria.jpg"
-                class="card-img-top card-img-menuhtml"
-                alt="foto cafeteria"
-              />
-              <div class="card-body text-white prueba-tres">
-                <h5 class="card-title">Cafetería</h5>
-                <p class="card-text">
-                  Café recién molido, con una selección de espresso, capuchino y
-                  café con leche.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card 5 -->
-          <div id="ensaladas" class="col-sm-12 col-md-6 col-lg-4 card-padding">
-            <div class="card card-menuhtml">
-              <img
-                src="../images/ensaladas.jpg"
-                class="card-img-top card-img-menuhtml"
-                alt="foto ensalada"
-              />
-              <div class="card-body text-white prueba-dos">
-                <h5 class="card-title">Ensaladas</h5>
-                <p class="card-text">
-                  Ensaladas frescas con ingredientes de temporada, opciones con
-                  pollo, atún o completamente veganas.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card 6 -->
-          <div id="postres" class="col-sm-12 col-md-6 col-lg-4 card-padding">
-            <div class="card card-menuhtml">
-              <img
-                src="../images/postres.jpg"
-                class="card-img-top card-img-menuhtml"
-                alt="foto postres"
-              />
-              <div class="card-body text-white prueba-uno">
-                <h5 class="card-title">Postres</h5>
-                <p class="card-text">
-                  Variedad de postres caseros, desde brownies hasta cheesecake,
-                  perfectos para cerrar tu comida.
-                </p>
-              </div>
-            </div>
-          </div>
+          <!-- Segunda card -->
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 clase-menudos-gap">
+            <div class="card card-radius mb-3">
+              <div class="row g-0 justify-content-center">
+                <div class="col-md-6 card-menu-color card-negra">
+                  <div class="card-body">
+                    <h5 class="card-title text-white fs-2 mt-5">
+                      Infierno doble
+                    </h5>
+                    <p class="card-text text-danger fs-5">$8000</p>
 
-          <!-- Card 7 -->
-          <div id="dips" class="col-sm-12 col-md-6 col-lg-4 card-padding">
-            <div class="card card-menuhtml">
-              <img
-                src="../images/dips.jpg"
-                class="card-img-top card-img-menuhtml"
-                alt="foto dips"
-              />
-              <div class="card-body text-white prueba">
-                <h5 class="card-title">Dips</h5>
-                <p class="card-text">
-                  Surtido de dips caseros como guacamole, salsa de queso y
-                  alioli, perfectos para acompañar tus entradas.
-                </p>
+                    <button class="btn btn-danger fs-5 rounded-pill">
+                      Añadir al carrito
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6 card-negra">
+                  <img
+                    src="../images/menu-doble.jpg"
+                    class="img-fluid rounded-start clase-img-menu"
+                    alt="Foto de hamburguesa doble"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tercer Card-->
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 clase-menudos-gap">
+            <div class="card card-radius mb-3">
+              <div class="row g-0 justify-content-center">
+                <div class="col-md-6 card-menu-color card-negra">
+                  <div class="card-body">
+                    <h5 class="card-title text-white fs-2 mt-5">
+                      Infierno Triple
+                    </h5>
+                    <p class="card-text text-danger fs-5">$9000</p>
+                    <button class="btn btn-danger fs-5 rounded-pill">
+                      Añadir al carrito
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6 card-negra">
+                  <img
+                    src="../images/menu-triple.jpg"
+                    class="img-fluid rounded-start clase-img-menu"
+                    alt="Foto de hamburguesa triple"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Cuarta card -->
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 clase-menudos-gap">
+            <div class="card card-radius mb-3">
+              <div class="row g-0 justify-content-center">
+                <div class="col-md-6 card-menu-color card-negra">
+                  <div class="card-body">
+                    <h5 class="card-title text-white fs-2 mt-5">
+                      Infierno cuadruple
+                    </h5>
+                    <p class="card-text text-danger fs-5">$10000</p>
+
+                    <button class="btn btn-danger fs-5 rounded-pill">
+                      Añadir al carrito
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6 card-negra">
+                  <img
+                    src="../images/menu-cuadruple.jpg"
+                    class="img-fluid rounded-start clase-img-menu"
+                    alt="Foto de hamburguesa cuadruple"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Quinta card -->
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 clase-menudos-gap">
+            <div class="card card-radius mb-3">
+              <div class="row g-0 justify-content-center">
+                <div class="col-md-6 card-menu-color card-negra">
+                  <div class="card-body">
+                    <h5 class="card-title text-white fs-2 mt-5">
+                      Infierno quintuple
+                    </h5>
+                    <p class="card-text text-danger fs-5">$11000</p>
+                    <button class="btn btn-danger fs-5 rounded-pill">
+                      Añadir al carrito
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6 card-negra">
+                  <img
+                    src="../images/menu-quintuple.jpg"
+                    class="img-fluid rounded-start clase-img-menu"
+                    alt="Foto de hamburguesa quintuple"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Sexta card -->
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 clase-menudos-gap">
+            <div class="card card-radius mb-3">
+              <div class="row g-0 justify-content-center">
+                <div class="col-md-6 card-menu-color card-negra">
+                  <div class="card-body">
+                    <h5 class="card-title text-white fs-2 mt-5">
+                      Cuarto doble
+                    </h5>
+                    <p class="card-text text-danger fs-5">$10000</p>
+                    <button class="btn btn-danger fs-5 rounded-pill">
+                      Añadir al carrito
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6 card-negra">
+                  <img
+                    src="../images/cuarto-doble.jpg"
+                    class="img-fluid rounded-start clase-img-menu"
+                    alt="Foto de hamburguesa doble cuarto de libra"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -179,14 +197,30 @@
       </div>
     </main>
 
-    <footer class="footer-contacto text-center">
+    <!-- Aquí comienza el Footer -->
+    <footer class="footer text-center py-5 footer-index">
       <div class="container">
-        <p class="mb-0">
-          &copy; 2024 Consumiento Infiernos. Todos los derechos reservados.
-        </p>
+        <h1 class="footer-title-index">Best Burger in the World</h1>
         <p>
-          <a href="../index.html">Página principal</a> |
-          <a href="#menu-html">Volver</a>
+          <a class="text-white" href="../index.html">Página principal</a> |
+          <a class="text-white" href="#menu-html">Volver</a>
+        </p>
+        <div class="footer-icons-index">
+          <a href="https://facebook.com" target="_blank" class="mx-2">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="mx-2">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="mx-2">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="mx-2">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+        <p class="footer-copy-index mt-3 mb-0">
+          &copy; 2024 Consumiento Infiernos. Todos los derechos reservados.
         </p>
       </div>
     </footer>

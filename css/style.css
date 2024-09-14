@@ -36,7 +36,7 @@
 }
 
 .body-artistas {
-  background: radial-gradient(circle at center, #2e004f, black);
+  background-color: black;
 }
 
 .historia-body {
@@ -289,7 +289,7 @@
   border: 1px solid #0c0b0b; /* Borde de la tarjeta */
   border-radius: 10px; /* Bordes redondeados */
   overflow: hidden; /* Ocultar desbordamiento */
-  background-color: #000000; /* Fondo oscuro para la tarjeta */
+  background: radial-gradient(circle at center, #2e004f, black);
   color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
 }
@@ -297,7 +297,7 @@
 .music-card-img {
   width: 100%; /* Imagen de ancho completo */
   height: 12rem; /* Altura automática */
-  border-bottom: 2px solid #972f2f; /* Línea inferior */
+  border-bottom: none;
   filter: opacity(90%);
 }
 
@@ -800,19 +800,112 @@
 }
 
 .h-uno-artistas h1 {
-  font-size: 6rem;
-  font-family: "Permanent Marker";
-  font-style: cursive;
-  font-weight: normal;
-  line-height: 0.8;
-  color: rgba(252, 178, 82, 0.76);
-}
-.h-uno-artistas h2 {
   font-size: 2rem;
   font-family: "Permanent Marker";
   font-style: cursive;
+  font-size: 3rem;
 }
 
 .hito h3, .hito p {
   color: #000; /* Cambia a color negro o cualquier color oscuro deseado */
+}
+
+.body-menu-dos {
+  background-color: rgb(255, 255, 255);
+}
+
+.header-menu-dos {
+  height: 10rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: normal;
+  line-height: 0.8;
+}
+.header-menu-dos h1 {
+  font-size: 6rem;
+  font-family: "Permanent Marker";
+  font-style: cursive;
+  font-size: 5rem;
+}
+
+.clase-img-menu {
+  width: 20rem;
+  height: 18rem;
+}
+
+.card-menu-color {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.card-radius {
+  border: none; /* Elimina el borde de la tarjeta */
+  box-shadow: none; /* Elimina la sombra de la tarjeta */
+  outline: none; /* Elimina el contorno de la tarjeta */
+  border-radius: 50px; /* Ajusta el valor según el radio que desees */
+}
+
+.card-radius img {
+  border-radius: 50px; /* Ajusta según el radio que desees */
+}
+
+@media (max-width: 576px) {
+  .header-menu-dos h1 {
+    font-size: 3rem;
+    font-family: "Permanent Marker";
+    font-style: cursive;
+    margin-top: 2rem !important;
+  }
+  .clase-menudos-gap {
+    margin-bottom: 1rem;
+  }
+  .card-radius img {
+    border-radius: 10px; /* Ajusta según el radio que desees */
+  }
+  .card-negra {
+    height: 14rem;
+    width: 10rem;
+  }
+  .card-negra .card-body button {
+    height: 2rem;
+    font-size: 0.8rem !important;
+  }
+  .card-negra img {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+@media (min-width: 576px) {
+  .header-menu-dos {
+    height: 10rem;
+  }
+  .header-menu-dos h1 {
+    font-size: 3rem;
+    font-family: "Permanent Marker";
+    font-style: cursive;
+    margin-top: 2rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .header-menu-dos {
+    height: 13rem;
+  }
+  .header-menu-dos h1 {
+    font-size: 3rem;
+    font-family: "Permanent Marker";
+    font-style: cursive;
+    margin-top: 2rem !important;
+    font-size: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .header-menu-dos {
+    height: 10rem;
+  }
+  .header-menu-dos h1 {
+    font-size: 3rem;
+    font-family: "Permanent Marker";
+    font-style: cursive;
+    margin-top: 2rem !important;
+    font-size: 4rem;
+  }
 }/*# sourceMappingURL=style.css.map */

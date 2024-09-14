@@ -13,7 +13,8 @@
   
 
   .body-artistas {
-    background: radial-gradient(circle at center, $red-light, $red-dark);
+    background-color: black;
+    //background: radial-gradient(circle at center, $red-light, $red-dark);
     @extend %background-body;
   }
   

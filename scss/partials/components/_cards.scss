@@ -109,7 +109,7 @@
     border: 1px solid #0c0b0b; /* Borde de la tarjeta */
     border-radius: 10px; /* Bordes redondeados */
     overflow: hidden; /* Ocultar desbordamiento */
-    background-color: #000000; /* Fondo oscuro para la tarjeta */
+    background: radial-gradient(circle at center, $red-light, $red-dark);
     color: #fff; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
   }
@@ -117,7 +117,7 @@
   .music-card-img {
     width: 100%; /* Imagen de ancho completo */
     height: 12rem; /* Altura automática */
-    border-bottom: 2px solid #972f2f; /* Línea inferior */
+    border-bottom: none;
     filter: opacity(90%);
   }
   

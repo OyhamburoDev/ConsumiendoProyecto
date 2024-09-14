@@ -1,0 +1,104 @@
+// Estilos para el Body
+.body-menu-dos{
+    background-color:$color-white; 
+}
+
+// Estilos para el header
+.header-menu-dos{
+    height: 10rem;
+    color: $color-white;
+    text-align: center;
+    font-weight: normal;
+    line-height: 0.8;
+    h1{
+        @include font-family-and-size(6rem, "Permanent Marker", cursive);
+        font-size: 5rem;
+    }
+}
+
+// estilos para las imagenes de las cards 
+.clase-img-menu{
+ width: 20rem;
+ height: 18rem;
+}
+
+// estilos para el color dentro de las cards
+.card-menu-color{
+    background-color: $color-gray-dark;  
+}
+//estilos para las cards
+.card-radius {
+    border: none; /* Elimina el borde de la tarjeta */
+    box-shadow: none; /* Elimina la sombra de la tarjeta */
+    outline: none; /* Elimina el contorno de la tarjeta */
+    border-radius: 50px; /* Ajusta el valor según el radio que desees */
+}
+  .card-radius img {
+    border-radius: 50px; /* Ajusta según el radio que desees */
+  }
+
+
+// estilos aplicativos para tamaños responsive mobile
+  @media (max-width: 576px) {
+    .header-menu-dos h1{
+    @include font-family-and-size(3rem, "Permanent Marker", cursive);
+    margin-top: 2rem !important;
+  }
+  .clase-menudos-gap{
+    margin-bottom: 1rem;
+  }
+  .card-radius img{
+    border-radius: 10px; /* Ajusta según el radio que desees */
+  }
+.card-negra{
+  height: 14rem;
+  width: 10rem;
+
+  .card-body{
+    button{
+      height: 2rem;
+      font-size: 0.8rem !important;
+    }
+  }
+  img{
+    height: 14rem;
+    width: 14rem;
+  }
+}
+  }
+
+// Estilos para el h1 responsive
+  @media (min-width: 576px) {
+    .header-menu-dos{
+      height: 10rem;
+    }
+    .header-menu-dos h1{
+      @include font-family-and-size(3rem, "Permanent Marker", cursive);
+      margin-top: 2rem !important;
+      
+    }
+  }
+
+// Continuamos con los estilos para el header y el h1
+  @media (min-width: 768px) {
+    .header-menu-dos{
+      height: 13rem;
+    }
+    .header-menu-dos h1{
+      @include font-family-and-size(3rem, "Permanent Marker", cursive);
+      margin-top: 2rem !important;
+      font-size: 4rem;
+    }
+  }
+
+// Idem anterior, cambia el tamaño a Desktop
+  @media (min-width: 992px) {
+    .header-menu-dos{
+      height: 10rem;
+    }
+    .header-menu-dos h1{
+      @include font-family-and-size(3rem, "Permanent Marker", cursive);
+      margin-top: 2rem !important;
+      font-size: 4rem; 
+    }
+  }
