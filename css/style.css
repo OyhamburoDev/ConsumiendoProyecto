@@ -817,10 +817,9 @@
     height: 24rem;
   }
 }
-.body-menu-dos {
-  background-image: url("../../images/background-blanco.png");
-}
-
+/*.body-menu-dos{
+  background-image: url('../../images/background-blanco.png');    
+} */
 .header-menu-dos {
   height: 10rem;
   color: rgb(255, 255, 255);
