@@ -24,20 +24,23 @@
     z-index: 10;
     overflow: visible;
   
-  h5 {
+  h1 {
     @include font-family-and-size(6rem, "Permanent Marker", cursive);
     font-weight: normal;
     line-height: 0.8;
+  
   }
   
   p {
    @include font-family-and-size(2rem, "Permanent Marker", cursive);
+  
   }
   
-  h6 {
+  h2 {
     @include font-family-and-size(6rem, "Permanent Marker", cursive);
     font-weight: normal;
     line-height: 1;
+ 
   }
 }
 

@@ -54,7 +54,7 @@
   z-index: 10;
   overflow: visible;
 }
-.carousel-caption h5 {
+.carousel-caption h1 {
   font-size: 6rem;
   font-family: "Permanent Marker";
   font-style: cursive;
@@ -66,7 +66,7 @@
   font-family: "Permanent Marker";
   font-style: cursive;
 }
-.carousel-caption h6 {
+.carousel-caption h2 {
   font-size: 6rem;
   font-family: "Permanent Marker";
   font-style: cursive;
@@ -263,7 +263,7 @@
   background-color: rgb(0, 0, 0);
 }
 
-.card-artistas h5 {
+.card-artistas h2 {
   text-align: center;
   font-size: "Permanent Marker";
   font-family: cursive;
@@ -315,11 +315,11 @@
 }
 
 @media (max-width: 768px) {
-  .carousel-caption h5 {
-    font-size: 4rem;
+  .carousel-caption h1 {
+    font-size: 3.5rem;
   }
-  .carousel-caption h6 {
-    font-size: 4rem;
+  .carousel-caption h2 {
+    font-size: 3.5rem;
   }
   .carousel-caption p {
     font-size: 1.5rem;
@@ -423,12 +423,12 @@
     width: 100%;
     overflow: visible;
   }
-  .carousel-caption h5 {
+  .carousel-caption h1 {
     font-size: 3rem;
     margin-top: 3rem;
     margin-left: 0;
   }
-  .carousel-caption h6 {
+  .carousel-caption h2 {
     font-size: 3rem;
   }
   .carousel-caption p {
@@ -445,6 +445,11 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 1rem;
+  }
+  .text-carousel-hdos {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-left: 0;
   }
 }
 .footer-index {
