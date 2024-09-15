@@ -771,7 +771,7 @@
 }
 
 .body-artistas {
-  background-image: url("/images/fondo-artistas-uno.jpg");
+  background-image: url("../../images/fondo-artistas-uno.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
