@@ -770,13 +770,12 @@
   font-size: 1rem;
 }
 
-.body-artistas {
-  background-image: url("../../images/fondo-artistas-uno.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
+/*.body-artistas {
+  background-image: url('../../images/fondo-artistas-uno.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  } */
 .h-uno-artistas h1 {
   font-size: 2rem;
   font-family: "Permanent Marker";
