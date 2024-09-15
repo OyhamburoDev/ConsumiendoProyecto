@@ -770,12 +770,13 @@
   font-size: 1rem;
 }
 
-/*.body-artistas {
-  background-image: url('../../images/fondo-artistas-uno.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  } */
+.body-artistas {
+  background-image: url("../../images/fondo-artistas-uno.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .h-uno-artistas h1 {
   font-size: 2rem;
   font-family: "Permanent Marker";
@@ -818,7 +819,7 @@
   }
 }
 .body-menu-dos {
-  background-color: rgb(255, 255, 255);
+  background-image: url("../../images/background-blanco.png");
 }
 
 .header-menu-dos {
