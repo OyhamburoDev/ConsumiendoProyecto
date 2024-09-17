@@ -106,8 +106,7 @@
 }
 
   .music-card {
-    border: 1px solid #0c0b0b; /* Borde de la tarjeta */
-    border-radius: 10px; /* Bordes redondeados */
+    @include border-and-border-radius(10px, 1px solid #0c0b0b);
     overflow: hidden; /* Ocultar desbordamiento */
     background: $color-black;
     color: $color-white; 

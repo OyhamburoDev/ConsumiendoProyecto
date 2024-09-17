@@ -28,10 +28,9 @@
 }
 //estilos para las cards
 .card-radius {
-    border: none; /* Elimina el borde de la tarjeta */
+  @include border-and-border-radius(50px, none);
     box-shadow: none; /* Elimina la sombra de la tarjeta */
     outline: none; /* Elimina el contorno de la tarjeta */
-    border-radius: 50px; /* Ajusta el valor según el radio que desees */
 }
   .card-radius img {
     border-radius: 50px; /* Ajusta según el radio que desees */

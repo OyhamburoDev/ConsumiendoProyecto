@@ -3,3 +3,9 @@
     font-family: $fuente;
     font-style: $estilo;
 }
+
+//mixin para los bordes de las cards
+@mixin border-and-border-radius ($tamano, $borde){
+    border-radius: $tamano;
+    border:$borde;
+}

@@ -78,9 +78,7 @@
       padding: 0 15px;
       
       .video-container video {
-        border-radius: 15px; /* Ajusta el radio según tus necesidades */
-        border: 2px solid #d9534f; /* Borde de 2px de grosor */
-        border-radius: 10px; /* Redondear los bordes del borde */
+        @include border-and-border-radius(10px, 2px solid #d9534f);
         filter: opacity(80%);
       }
   
@@ -243,9 +241,7 @@
   #contenido-nuevo {
     display: block; /* Ocultar por defecto (en mobile) */
     .video-container video {
-      border-radius: 15px; /* Ajusta el radio según tus necesidades */
-      border: 2px solid #d9534f; /* Borde de 2px de grosor */
-      border-radius: 10px; /* Redondear los bordes del borde */
+      @include border-and-border-radius(10px, 2px solid #d9534f);
       filter: opacity(80%);
     }
     h3 {
